@@ -1,0 +1,35 @@
+.nav_bottom {
+    position: fixed;
+    left: 0px;
+    bottom: 50px;
+    width: 100%;
+    z-index: 10;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_items {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#home {
+    background-image: url("../assets/home.png");
+    background-size: cover;
+}
+
+#ideas {
+    background-image: url("../assets/bulb.png");
+    background-size: cover;
+}
+
+#profile {
+    background-image: url("../assets/profile.png");
+    background-size: cover;
+}

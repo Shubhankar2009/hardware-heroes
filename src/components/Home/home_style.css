@@ -1,0 +1,204 @@
+body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+    overflow: visible;
+    overflow-x: hidden;
+}
+
+.header {
+    background-image: url("https://img.freepik.com/free-vector/cloud-internet-technology_53876-94170.jpg");
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first_main_text {
+    font-size: 80px;
+    color: wheat;
+    margin-left: 40px;
+}
+
+.first_dynamic_text {
+    font-size: 80px;
+    margin-left: 100px;
+}
+
+.first_inner_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus {
+    margin-top: 200px;
+    z-index: 10;
+    color: white;
+}
+
+.go {
+    height: 100px;
+    width: 300px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 40px;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.go:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.why {
+    margin-top: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.why>h1 {
+    font-size: 60px;
+}
+
+.answer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+}
+
+.answer_img {
+    height: 500px;
+    width: 800px;
+    background-image: url("https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW90fGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.answer_text {
+    font-size: 30px;
+    width: 800px;
+    margin-left: 50px;
+}
+
+@media (max-width:1440px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        width: 128%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 820px;
+    }
+    .why {
+        margin-left: 400px;
+    }
+}
+
+@media (max-width:1024px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        width: 180%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 820px;
+    }
+    .why {
+        margin-left: 750px;
+    }
+}
+
+@media (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        width: 280%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 820px;
+    }
+    .why {
+        margin-left: 1250px;
+    }
+}
+
+@media (max-width:425px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        width: 280%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 820px;
+    }
+    .why {
+        margin-left: 750px;
+    }
+    .answer {
+        flex-direction: column;
+    }
+    .answer_text {
+        width: 900px;
+    }
+    .first_inner_div {
+        flex-direction: column;
+    }
+    .first_main_text {
+        position: relative;
+        bottom: 100px;
+    }
+}
+
+@media (max-width:375px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        width: 320%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 820px;
+    }
+}
+
+@media (max-width:320px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        width: 350%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 820px;
+    }
+}
